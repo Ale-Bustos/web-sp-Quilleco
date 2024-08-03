@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity)); /* bg-gray-900 */
+  color: rgba(255, 255, 255, var(--tw-text-opacity)); /* text-white */
+}
+
+.transition {
+  transition: background-color 0.5s, color 0.5s;
+}
